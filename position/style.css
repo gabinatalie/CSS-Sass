@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin-left: 10px;
+}
+
+section {
+  border: solid gold;
+  margin: 10px;
+  height: 400px;
+}
+
+.static {
+  background-color: mediumvioletred;
+  width: 200px;
+  height: 200px;
+  position: static;
+}
+
+.relative {
+  background-color: darkblue;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  top: 20px;
+  left: 40px;
+}
+
+.absolute {
+  background-color: darkgreen;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 150px;
+  left: 150px;
+}
+
+.sticky {
+  background-color: red;
+  height: 50px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.fixed {
+  background-color: lemonchiffon;
+  display: flex;
+  list-style: none;
+  height: 10vh;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 2;
+}/*# sourceMappingURL=style.css.map */

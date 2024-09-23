@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container1{
+    border: solid tomato;
+    display: flex;
+    // ativando o flexbox, ele deixa todas as tags do container uma ao lado da outra
+    // justify-content: center;
+    // centralizar os elementos ao centro
+    // justify-content: flex-start;
+    // padrão alinhado ao inicio do container
+    // justify-content: flex-end;
+    // alinhado ao fim do container
+    // justify-content:space-between;
+    // Espaço entre os elementos
+    // justify-content: space-around;
+    // Espaçamento ao redor dos elementos
+    // justify-content: space-evenly;
+    // Espaçamento ao redor dos elementos igualmente
+
+    // justify-content - alinha no eixo X, horizontal
+   
+}
+
+.item1 {
+    border: solid green;
+}
+
+.container2 {
+    border: solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    // align-items: stretch;
+    // esticado do começo do eixo y até o fim
+    //justify-content: center;
+    // fica ao centro da altura
+
+
+//   align-items: alinha no eixo Y, vertical
+   
+}
+
+.item2 {
+    border: solid palevioletred;
+   
+
+}
+
+.container3 {
+    border: solid burlywood;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100px;
+    justify-content: center;
+
+}
+
+.item3 {
+    border: solid brown;
+}
+

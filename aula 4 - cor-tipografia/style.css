@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: rgba(80, 142, 172, 0.7);
+  text-align: center;
+  margin: 2rem;
+  font-style: oblique;
+}
+
+h2 {
+  color: rgb(115, 31, 115);
+  text-decoration: underline;
+  margin: 0.5rem;
+  padding: 0.3rem;
+}
+
+.vermelho {
+  color: rgb(255, 0, 0);
+}
+
+.verde {
+  color: rgb(0, 255, 0);
+}
+
+.azul {
+  color: rgb(0, 0, 255);
+}
+
+.rgb, .rgba {
+  border: solid 3px gold;
+  border-radius: 5rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.rgba {
+  margin: 0.5rem;
+}
+
+.rgba p {
+  color: rgb(85, 24, 177);
+  font-weight: 500;
+}
+
+/* no SASS usa aninhamento(nesting), diferente do CSS que seria .rgba p{} *//*# sourceMappingURL=style.css.map */

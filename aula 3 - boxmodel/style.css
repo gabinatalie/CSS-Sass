@@ -1,0 +1,32 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+}
+
+/* asterisco é o seletor universal, aplica em tudo */
+h1 {
+  background-color: paleturquoise;
+  border: solid 1px palevioletred;
+  padding: 20px;
+  margin: 20px 30px;
+  /* margin e padding - valores para cada lados, se passar 2 valores fica (top/ottom + right/left) caso queira um valor pra cada lado então coloca 4 valores (top, right, bottom, left ) */
+}
+
+.caixa1 {
+  background-color: blue;
+  border: solid;
+  width: 200px;
+}
+
+.caixa2 {
+  background-color: tomato;
+  border: solid;
+  width: 200px;
+  display: inline-block;
+}
+
+.desafio {
+  background-color: greenyellow;
+  width: 600px;
+  height: 600px;
+}/*# sourceMappingURL=style.css.map */

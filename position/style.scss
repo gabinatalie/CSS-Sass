@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  margin-left: 10px;
+}
+
+section {
+  border: solid gold;
+  margin: 10px;
+  height: 400px;
+}
+
+.static {
+  background-color: mediumvioletred;
+  width: 200px;
+  height: 200px;
+  position: static; // padrão
+  // a tag não vai ter alteração pois 'static' é a posição padrão
+}
+
+.relative {
+  background-color: darkblue;
+  width: 200px;
+  height: 200px;
+  // relative: é posicionada de acordo com so seu fluxo normal
+  //ajustar a tag para qualquer lado, usando as propriedades: top, right, left, bottom
+  position: relative;
+  top: 20px;
+  left: 40px;
+  // top, right, left, bottom
+}
+
+.absolute {
+  background-color: darkgreen;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 150px;
+  left: 150px;
+  
+  // 
+}
+
+.sticky {
+  background-color: red;
+  height: 50px;
+  position: sticky;
+  //cola o conteúdo em sua posição  que for indicada
+  top: 0;
+  z-index: +1;
+  // é a profundidade do conteúdo em relação aos outros. 
+}
+
+.fixed {
+  background-color: lemonchiffon;
+  display: flex;
+  list-style: none;
+  height: 10vh;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 2;
+}
